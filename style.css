@@ -41,14 +41,21 @@
         flex: 1 1 60%;
     }
     
+    #principal {
+        text-align: center;
+    }
+    
     aside {
         background-color: #8bc689;
-        padding: 20px;
         flex: 1 1 0%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: flex-start;
     }
     
     #elementos {
-        padding: 20px;
+        padding: 10px;
     }
     
     footer {
@@ -60,4 +67,76 @@
     
     .titulos {
         text-align: center;
+        padding: 10px;
+    }
+    
+    .formularioRegistro {
+        width: 100%;
+        max-width: 600px;
+        min-width: 100%;
+        padding: 15px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formularioDocumentos {
+        width: 100%;
+        max-width: 600px;
+        min-width: 100%;
+        padding: 15px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formularioRegistro input {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .formularioSolicitud input {
+        margin-bottom: 10px;
+    }
+    
+    .formularioDocumentos input {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .botonEnviar {
+        padding: 0.5em 1em;
+        border: none;
+        background: #88d0e6;
+        cursor: pointer;
+        margin: 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .columnas {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+    }
+    
+    .columnas>div {
+        width: 50%;
+        padding: 10px;
+        text-align: justify;
+        font-style: italic;
+        font-size: 18px;
+    }
+    
+    .formularioSolicitud select {
+        margin-bottom: 10px;
+    }
+    
+    .columnas>div:first-child {
+        margin-right: 20px;
     }
