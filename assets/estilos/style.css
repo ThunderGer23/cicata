@@ -6,7 +6,7 @@
     
     body {
         /* background-color: #88d0e6;*/
-        background: url("Img/transp.png");
+        background: url("/assets/img/transp.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
