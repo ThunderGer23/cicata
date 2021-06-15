@@ -165,3 +165,11 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
+    
+    .piedepagina {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
